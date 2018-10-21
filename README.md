@@ -8,4 +8,4 @@ Then run this command inside backend folder "node VT1.js".This will start the no
 
 Then run the react  app using npm start command. use computer IP and nodejs server running port as url. ex:-"http://localhost:3000".
 
-If you host that app.js then use that host url as fetch URL.
+If you host that VT1.js then use that host url as fetch URL.
