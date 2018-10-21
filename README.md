@@ -1,13 +1,11 @@
-ReactNativeNodeJs
+RecatwebPageVT
 
-This project include both frontend (ReactNative) and backend(nodejs) for fetch data from mongodb.
 
-In here i used a genymotion based android emulator.
+This project include both frontend Reactjs and backend(nodejs) for fetch data from mongodb.
 
-In the beginning get matches.json file which is located inside backend folder then create a database called Cricket and create collection called cricket. Then import that matches.json in to cricket collection.
+In the beginning  create a database called MyNewDatabase and create collection called VirtualCapitalDB. then add few data to that (firstnamr,lastname, videocount)
+Then run this command inside backend folder "node VT1.js".This will start the nodejs server. Then to test it run "http://localhost:8080/users" using web browser this will display all the data inside database.
 
-Then run this command inside backend folder "node app.js".This will start the nodejs server. Then to test it run "http://localhost:3000/listUsers" using web browser this will display all the data inside json file.
-
-Then run the react native app using "react-native run-android" command. In here if you use genymotion android emulator then use computer IP and nodejs server running port as url. ex:-"http://192.168.8.50:3000/listUsers".
+Then run the react  app using npm start command. use computer IP and nodejs server running port as url. ex:-"http://192.168.8.50:3000".
 
 If you host that app.js then use that host url as fetch URL.
